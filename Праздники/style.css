@@ -171,6 +171,7 @@ nav{
 .clients h1{
     margin-bottom: 21px;
     font-size: 44px;
+    font-weight: normal;
 }
 .listClients{
     padding-top: 111px;
@@ -198,6 +199,76 @@ nav{
 .testimonials p:last-child{
     margin-top: 47px;
 }
+.work{
+    text-align: center;
+    padding: 99px 0 101px 0;
+}
+.work h1{
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 44px;
+}
+.work .line{
+    margin: 29px 0 53px 0;
+}
+.work p{
+    color: #6c6c6c;
+    margin-bottom: 175px;
+}
+.gallery img:hover{
+    opacity: 0.9;
+}
+.contactWrapper{
+    width: 754px;
+    margin: 0 auto;
+}
+.contactUs{
+    text-align: center;
+    padding: 98px 0 102px 0;
+}
+.contactUs h1{
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: normal;
+}
+.contactUs .line{
+    margin: 30px 0 54px 0;
+}
+.contactUs p{
+    color: #858585;
+}
+form{
+    margin-top: 96px;
+    text-align: left;
+}
+input[type=text]{
+    width: 360px;
+    height: 43px;
+    font-size: 20px;
+    margin-right: 17px;
+}
+.formInputs{
+    display: flex;
+    margin-bottom: 30px;
+}
+textarea{
+    width: 753px;
+    height: 165px;
+}
+.red{
+    color: red;
+}
+.buttonarea{
+    display: flex;
+    justify-content: flex-end;
+}
+input[type="submit"]{
+    width: 164px;
+    height: 40px;
+    background: #fcac45;
+    color: #fff;
+}
+
 
 @media screen and (max-width:1276px){
     nav{
